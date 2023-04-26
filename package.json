@@ -7,8 +7,8 @@
     "dev": "webpack serve --mode development",
     "pro": "webpack --mode production"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["React Router", "Webpack", "TypeScript", "React", "Redux-Toolkit", "RTK-Query"],
+  "author": "Craig Johnson",
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.5",
