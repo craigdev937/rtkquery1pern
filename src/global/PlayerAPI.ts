@@ -13,7 +13,7 @@ export const PlayerAPI = createApi({
             providesTags: ["Player"],
         }),
         getOne: builder.query<IPlayer, string>({
-            query: (id) => `${id}`,
+            query: (id) => `/${id}`,
             providesTags: ["Player"]
         }),
         add: builder.mutation<IPlayer, IPlayer>({
